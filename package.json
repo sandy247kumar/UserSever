@@ -1,0 +1,25 @@
+{
+  "name": "pickaaruser",
+  "version": "1.0.0",
+  "description": "Users service for both customer and vendor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "lint": "eslint ./src --ext .js",
+    "fix": "eslint ./src --ext .js --fix"
+  },
+  "author": "kamesh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "date-and-time": "^2.4.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "http-status": "^1.5.2",
+    "mongodb": "^4.8.0",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19"
+  }
+}
